@@ -157,6 +157,10 @@ span.ds-department{ color: #373737; font-weight: 500; font-size: 18px; padding-b
 	.ds-work-list section{ padding-right: 0; padding-bottom: 30px; }
 }
 
+.container-ex {
+	display: flex; /* or inline-flex */
+}
+
 
 @media (min-width: 768px) and (max-width: 991px) {
 	.ds-work-list section{ padding-right: 30px; }
