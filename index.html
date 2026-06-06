@@ -18,7 +18,7 @@
       <link href="assets/css/main.css" rel="stylesheet">
 
 
-    <title>Portfolio Gleb Stachev </title>
+    <title>Portfolio | Gleb Stachev </title>
   </head>
   <body>
    
@@ -28,7 +28,7 @@
             <div class="ds-header-inner">
               <!-- logo -->
               <a href="index.html" class="ds-logo">
-                <span>G</span>Gleb Stachev
+                <span>G</span>
               </a>
               <!-- logo -->
               <!-- social -->
@@ -47,18 +47,63 @@
         <div class="row">
           <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5">
             <figure>
-              <img src="assets/images/profile-image.jpg">
+            <img src="assets/images/profile.png" class="img-thumbnail">
             </figure>
           </div>
           <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
-            <section>
-                <h1>
-                  <span>HI THERE</span>
-                  I’m Gleb Stachev, <br>Junior Full Stack developer.
-                </h1>
-                <h3>Short about me:</h3>
-                <p>I love technical things, to learn and understand them. Also, outdoor sports activities. Will be happy to work on open source project, just to get experience. Tel Aviv, Israel.</p>
-            </section>
+<!--            <section>-->
+<!--                <h1>-->
+<!--                  <span>HI THERE</span>-->
+<!--                  I’m Gleb Stachev, <br>Embedded Engineer-->
+<!--                </h1>-->
+<!--                <h3>Short about me:</h3>-->
+<!--                <p>Software & Hardware Engineer with a strong background in developing real-time AV video processing systems, computer vision, and embedded solutions. Experienced in bridging the gap between low-level firmware and high-level software, creating standalone systems as well as IoT solutions integrated with web servers and custom UIs. Tel Aviv, Israel.</p>-->
+<!--            </section>-->
+
+
+<!--              <section class="ds-hero-section">-->
+<!--                <h1 class="ds-hero-title">-->
+<!--                  <span class="ds-greeting">Hi there,</span>-->
+<!--                  I’m Gleb Stachev-->
+<!--                  <span class="ds-subtitle">   Embedded Engineer</span>-->
+<!--                </h1>-->
+
+<!--                <h3 class="ds-about-heading">Short about me:</h3>-->
+<!--                <p class="ds-about-text">-->
+<!--                  Software & Hardware Engineer with a strong background in developing real-time AV-->
+<!--                  video processing systems, computer vision, and embedded solutions. Experienced in-->
+<!--                  bridging the gap between low-level firmware and high-level software, creating-->
+<!--                  standalone systems as well as IoT solutions integrated with web servers and custom UIs.-->
+<!--                  <span class="ds-location"><i class="fas fa-map-marker-alt"></i>  </span>-->
+<!--                </p>-->
+<!--            </section>-->
+
+
+              <section class="ds-hero-section">
+                    <h1 class="ds-hero-title">
+                      <span class="ds-greeting">Hi there,</span>
+                      I’m Gleb Stachev
+                    </h1>
+
+                    <!-- Локація під тайтлом: помітна, чиста, з іконкою -->
+                   <div class="ds-hero-location" style="margin: 1rem 0 2rem 0; color: #6c757d; font-size: 1.1rem; display: flex; align-items: center; gap: 0.5rem;">
+                       <span class="ds-subtitle">Embedded Engineer</span>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#dc3545" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                      </svg>
+                      <span>Tel Aviv, Israel</span>
+                    </div>
+
+                    <h3 class="ds-about-heading">Short about me:</h3>
+                    <p class="ds-about-text">
+                      Software & Hardware Engineer with a strong background in developing real-time AV
+                      video processing systems, computer vision, and embedded solutions. Experienced in
+                      bridging the gap between low-level firmware and high-level software, creating
+                      standalone systems as well as IoT solutions integrated with web servers and custom UIs.
+                    </p>
+                </section>
+
+
           </div>
         </div>
       </div>
@@ -69,160 +114,519 @@
             <br>
             <br>
             <div class="ds-button-sec text-center">
-                <a href="assets/resume.pdf" class="ds-button" download>Download CV</a>
+                <a href="assets/Stachev_Gleb_CV.pdf" class="ds-button" download>Download CV</a>
              </div>
             <br>
             <br>
     <!-- about -->
 
     <!--  Skills -->
-    <div class="ds-skills-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-             <h2 class="ds-heading">Core Skills</h2>
-             <ul class="ds-skills-list">
-               <li>JavaScript</li>
-               <li>Python</li>
-               <li>PostgreSQL</li>
-               <li>Jinja2</li>
-               <li>Flask</li>
-               <li>CSS</li>
-               <li>Github</li>
-               <li>HTML</li>
-               <li>Vue</li> 
-             </ul>
-          </div>
-          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-            <h2 class="ds-heading">Other Skills</h2>
-            <ul class="ds-skills-list">
-              <li>FreeCad</li>
-              <li>3d printing</li>
-              <li>Multirotor building</li>
-              <li>MicroPython</li>
-              <li>Raspberry Pi Pico</li>
-              <li>DipTrace</li>  
-            </ul>
-          </div>
+
+
+    <!-- Skills Section -->
+<div class="ds-skills-section mt-5">
+  <div class="container">
+    <div class="row">
+
+      <!-- ЛІВА КОЛОНКА: HARDWARE & EMBEDDED -->
+      <div class="col-12 col-md-6">
+         <h2 class="ds-heading" style="font-size: 1.3rem; font-weight: 700; text-transform: uppercase; border-bottom: 2px solid #dc3545; padding-bottom: 5px; display: inline-block; margin-bottom: 1.5rem;">Hardware & Firmware</h2>
+         <div class="ds-skills-tags d-flex flex-wrap gap-2">
+           <!-- Підсвічуємо embedded мови програмування -->
+           <span class="badge bg-light text-dark border p-3 style-badge">MicroPython</span>
+           <span class="badge bg-light text-dark border p-3 style-badge">C++</span>
+           <span class="badge bg-light text-dark border p-3 style-badge">RTOS</span>
+           <span class="badge bg-light text-dark border p-3 style-badge">ESP32</span>
+           <span class="badge bg-light text-dark border p-3 style-badge">Raspberry Pi Pico (RP2040)</span>
+           <span class="badge bg-light text-dark border p-3 style-badge">Protocols (I2S, SPI, I2C, UART, PWM)</span>
+           <span class="badge bg-light text-dark border p-3 style-badge">FreeCAD (3D Modeling)</span>
+           <span class="badge bg-light text-dark border p-3 style-badge">PCB Design (DipTrace)</span>
+           <span class="badge bg-light text-dark border p-3 style-badge">3D Printing & Prototyping</span>
+         </div>
+      </div>
+
+      <!-- ПРАВА КОЛОНКА: SOFTWARE & WEB -->
+      <div class="col-12 col-md-6 mt-5 mt-md-0">
+        <h2 class="ds-heading" style="font-size: 1.3rem; font-weight: 700; text-transform: uppercase; border-bottom: 2px solid #dc3545; padding-bottom: 5px; display: inline-block; margin-bottom: 1.5rem;">Software & Web Integrations</h2>
+        <div class="ds-skills-tags d-flex flex-wrap gap-2">
+          <!-- Цілісний тег для високорівневого Python, загорнутий без зайвих пробілів -->
+          <span class="badge bg-light text-dark border p-3 style-badge">Python&nbsp;(FastAPI,&nbsp;Flask)</span>
+          <span class="badge bg-light text-dark border p-3 style-badge">JavaScript (Vue.js)</span>
+          <span class="badge bg-light text-dark border p-3 style-badge">WebSockets & RESTful APIs</span>
+          <span class="badge bg-light text-dark border p-3 style-badge">PostgreSQL</span>
+          <span class="badge bg-light text-dark border p-3 style-badge">Jinja2</span>
+          <span class="badge bg-light text-dark border p-3 style-badge">HTML5 & CSS3</span>
+          <span class="badge bg-light text-dark border p-3 style-badge">Git / GitHub</span>
         </div>
       </div>
+
     </div>
+  </div>
+</div>
+
+<!--    <div class="ds-skills-section">-->
+<!--  <div class="container">-->
+<!--    <div class="row">-->
+
+<!--      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">-->
+<!--         <h2 class="ds-heading">Hardware & Firmware</h2>-->
+<!--         <ul class="ds-skills-list">-->
+<!--           <li>C++</li>-->
+<!--             <li>Python</li>-->
+<!--           <li>RTOS</li>-->
+<!--           <li>ESP32</li>-->
+<!--           <li>Raspberry Pi Pico (RP2040)</li>-->
+<!--           <li>Protocols (I2S, SPI, I2C, UART, PWM)</li>-->
+<!--           <li>FreeCAD (3D Modeling)</li>-->
+<!--           <li>PCB Design (DipTrace)</li>-->
+<!--           <li>3D Printing & Prototyping</li>-->
+<!--           <li>Multirotor & Gimbal Building</li>-->
+<!--         </ul>-->
+<!--      </div>-->
+
+<!--      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">-->
+<!--        <h2 class="ds-heading">Software & Web Integrations</h2>-->
+<!--        <ul class="ds-skills-list">-->
+<!--          <li>FastAPI</li>-->
+<!--            <li>Flask</li>-->
+<!--          <li>JavaScript (Vue.js)</li>-->
+<!--          <li>WebSockets & RESTful APIs</li>-->
+<!--          <li>PostgreSQL</li>-->
+<!--          <li>Jinja2</li>-->
+<!--          <li>HTML5 & CSS3</li>-->
+<!--          <li>Git / GitHub</li>-->
+<!--        </ul>-->
+<!--      </div>-->
+
+<!--    </div>-->
+<!--  </div>-->
+<!--</div>-->
+
+<!--    <div class="ds-skills-section">-->
+<!--      <div class="container">-->
+<!--        <div class="row">-->
+<!--          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">-->
+<!--             <h2 class="ds-heading">Core Skills</h2>-->
+<!--             <ul class="ds-skills-list">-->
+<!--               <li>JavaScript</li>-->
+<!--               <li>Python</li>-->
+<!--                 <li>C++</li>-->
+<!--               <li>PostgreSQL</li>-->
+<!--               <li>Jinja2</li>-->
+<!--               <li>Flask</li>-->
+<!--               <li>CSS</li>-->
+<!--               <li>Github</li>-->
+<!--               <li>HTML</li>-->
+<!--               <li>Vue</li>-->
+<!--                 <li>FastAPI</li>-->
+<!--                 <li>I2S/SPI/I2C</li>-->
+<!--             </ul>-->
+<!--          </div>-->
+<!--          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">-->
+<!--            <h2 class="ds-heading">Other Skills</h2>-->
+<!--            <ul class="ds-skills-list">-->
+<!--              <li>FreeCad</li>-->
+<!--              <li>3d printing</li>-->
+<!--              <li>Multirotor building</li>-->
+<!--&lt;!&ndash;              <li>MicroPython</li>&ndash;&gt;-->
+<!--              <li>ESP32</li>-->
+<!--                <li>Raspberry Pi Pico</li>-->
+<!--              <li>DipTrace</li>  -->
+<!--            </ul>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
     <!--  Skills -->
 
    <!-- Experience/learning -->
-   <div class="ds-experience-section container d-flex flex-row">
-     <div class="content">
-        <h2 class="ds-heading">Experience</h2>
-        <div class="row ds-experience-list">
-            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-              <section>
-                <span class="ds-year"> June 2023 - present</span>
-                <h3 class="ds-officename">JUPI plus</h3>
-                <p><a href="https://www.jupiplus.com/">jupiplus.com</a></p>
-                <span class="ds-department">Vinnytsa, Ukraine</span>
-                <p>Full Stack developer</p>
-                <p>Remote</p>
-                <ul>
-                  <li>Python, CSS, HTML, JavaScript.</li>
-                  <li>PostgreSQL, Azure, SSR, RESTful.</li>
-                </ul>
-              </section>
-            </div>
-        </div>
-     </div>
 
-     <div class="content">
-      <h2 class="ds-heading">Learning</h2>
-      <div class="row ds-experience-list">
-          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-            <section>
-              <span class="ds-year"> November 2022 - May 2023</span>
-              <h3 class="ds-officename">DI Bootcamp</h3>
-              <span class="ds-department">Israel, Tel Aviv</span>
-              <p>Full Stack development</p>
-              <ul>
-                <li>Python, CSS, HTML, JavaScript.</li>
-                <li>Flask framework app connected to database.</li>
-              </ul>
-            </section>
-          </div>
+
+    <div class="ds-experience-section container">
+  <div class="row g-4">
+
+    <div class="col-12 col-md-8">
+      <div class="content h-100">
+         <h2 class="ds-heading">Experience</h2>
+
+         <div class="row g-4 ds-experience-list">
+
+             <div class="col-12 col-sm-6">
+               <section>
+                 <span class="ds-year">August 2025 - Present</span>
+                 <h3 class="ds-officename">JUPI plus</h3>
+                 <p><a href="https://www.jupiplus.com/" target="_blank">jupiplus.com</a></p>
+                 <span class="ds-department">Wroclaw, Poland (Remote)</span>
+                 <p><span class="badge bg-danger text-white me-2">Current</span><strong>Embedded Engineer</strong></p>
+                 <ul>
+                   <li>Architected low-latency audio streaming firmware for ESP32 utilizing FreeRTOS tasks and DMA buffers.</li>
+                   <li>Developed asynchronous RESTful and WebSocket server endpoints using Python (FastAPI).</li>
+                   <li>Designed mechanical enclosures and structural components from scratch in FreeCAD for hardware prototyping.</li>
+                 </ul>
+               </section>
+             </div>
+
+             <div class="col-12 col-sm-6">
+               <section>
+                 <span class="ds-year">June 2023 - August 2025</span>
+                 <h3 class="ds-officename">JUPI plus</h3>
+                 <p><a href="https://www.jupiplus.com/" target="_blank">jupiplus.com</a></p>
+                 <span class="ds-department">Vinnytsia, Ukraine (Remote)</span>
+                 <p><strong>Full Stack Developer</strong></p>
+                 <ul>
+                   <li>Built and optimized database schemas, indices, and server-side logic using Python and PostgreSQL.</li>
+                   <li>Developed dynamic, responsive web interfaces and user control dashboards using JavaScript.</li>
+                   <li>Managed application deployment workflows and cloud-based API integrations via Azure.</li>
+                 </ul>
+               </section>
+             </div>
+
+         </div>
       </div>
-   </div>
+    </div>
 
-   </div>
+    <div class="col-12 col-md-4">
+      <div class="content h-100">
+       <h2 class="ds-heading">Learning</h2>
+       <div class="row ds-experience-list">
+           <div class="col-12">
+             <section>
+               <span class="ds-year">November 2022 - May 2023</span>
+               <h3 class="ds-officename">DI Bootcamp</h3>
+               <span class="ds-department">Tel Aviv, Israel</span>
+               <p><strong>Full Stack Development</strong></p>
+               <ul>
+                 <li>Completed intensive software engineering bootcamp focused on Python and JavaScript web application architecture.</li>
+                 <li>Designed and deployed relational database-driven SSR applications utilizing the Flask framework.</li>
+               </ul>
+             </section>
+           </div>
+       </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!--    <div class="ds-experience-section container">-->
+<!--  <div class="row g-4">-->
+
+<!--    <div class="col-12 col-md-8">-->
+<!--      <div class="content h-100">-->
+<!--         <h2 class="ds-heading">Experience</h2>-->
+
+<!--         <div class="row g-4 ds-experience-list">-->
+
+<!--             <div class="col-12 col-sm-6">-->
+<!--               <section>-->
+<!--                 <span class="ds-year">June 2023 - August 2025</span>-->
+<!--                 <h3 class="ds-officename">JUPI plus</h3>-->
+<!--                 <p><a href="https://www.jupiplus.com/" target="_blank">jupiplus.com</a></p>-->
+<!--                 <span class="ds-department">Vinnytsia, Ukraine</span>-->
+<!--                 <p><strong>Full Stack developer</strong></p>-->
+<!--                 <p>Remote</p>-->
+<!--                 <ul>-->
+<!--                   <li>Python, CSS, HTML, JavaScript.</li>-->
+<!--                   <li>PostgreSQL, Azure, SSR, RESTful.</li>-->
+<!--                 </ul>-->
+<!--               </section>-->
+<!--             </div>-->
+
+<!--             <div class="col-12 col-sm-6">-->
+<!--               <section>-->
+<!--                 <span class="ds-year">August 2025 - present</span>-->
+<!--                 <h3 class="ds-officename">JUPI plus</h3>-->
+<!--                 <p><a href="https://www.jupiplus.com/" target="_blank">jupiplus.com</a></p>-->
+<!--                 <span class="ds-department">Wroclaw, Poland</span>-->
+<!--                 <p><strong>Embedded Engineer</strong></p>-->
+<!--                 <p>Remote</p>-->
+<!--                 <ul>-->
+<!--                   <li>Python, JavaScript, C++, CSS, HTML.</li>-->
+<!--                   <li>FastAPI, ESP32, RESTful, FreeCAD.</li>-->
+<!--                 </ul>-->
+<!--               </section>-->
+<!--             </div>-->
+
+<!--         </div>-->
+<!--      </div>-->
+<!--    </div>-->
+
+<!--    <div class="col-12 col-md-4">-->
+<!--      <div class="content h-100">-->
+<!--       <h2 class="ds-heading">Learning</h2>-->
+<!--       <div class="row ds-experience-list">-->
+<!--           <div class="col-12">-->
+<!--             <section>-->
+<!--               <span class="ds-year">November 2022 - May 2023</span>-->
+<!--               <h3 class="ds-officename">DI Bootcamp</h3>-->
+<!--               <span class="ds-department">Israel, Tel Aviv</span>-->
+<!--               <p><strong>Full Stack development</strong></p>-->
+<!--               <ul>-->
+<!--                 <li>Python, JavaScript, CSS, HTML.</li>-->
+<!--                 <li>Flask framework app connected to database.</li>-->
+<!--               </ul>-->
+<!--             </section>-->
+<!--           </div>-->
+<!--       </div>-->
+<!--      </div>-->
+<!--    </div>-->
+
+<!--  </div>-->
+<!--</div>-->
+
+
+
+
     <!-- Experience/learning -->
 
    <!--  Work -->
-   <div class="ds-work-section">
-     <div class="container">
-          <h2 class="ds-heading">Latest works</h2>
-          <div class="ds-work-list-section">
 
-            <div class="ds-work-list">
-              <div class="row">
-                  <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
-                      <section>
-                          <h3 class="ds-work-tilte">Paintings gallery.</h3>
-                          <p>The final educational project using html, css, javascript, python (flask framework, related to database - PostgreSQL). Simple gallery with opportunity to add/delete/upgrade images and posts.</p>
-                          <a href="https://github.com/StachevGleb/Final_Project" class="ds-button">Git</a>
-                          <a href="https://pictures-gallery.onrender.com/" class="ds-button">To see...</a>
-                          <a href="https://youtu.be/k_32FYkFRTc" class="ds-button">Video</a>
-                      </section>
-                  </div>
-                  <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5">
-                      <figure><img src="assets/images/work-2.jpg"></figure>
-                  </div>
-              </div>
-            </div>
+    <div class="ds-work-section">
+  <div class="container">
+    <h2 class="ds-heading">Latest Works</h2>
+    <div class="ds-work-list-section">
 
-                <div class="ds-work-list">
-              <div class="row">
-                  <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
-                      <section>
-                          <h3 class="ds-work-tilte">Calculator.</h3>
-                          <p>The calculator is created in pure javascript.</p>
-                          <a href="https://github.com/StachevGleb/Calculator" class="ds-button">Git</a>
-                          <a href="https://stachevgleb.github.io/Calculator/" class="ds-button">To see...</a>
-                      </section>
-                  </div>
-                  <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5">
-                      <figure><img src="assets/images/work-3.jpg"></figure>
-                  </div>
-              </div>
+      <div class="ds-work-list">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-6">
+            <section>
+              <h3 class="ds-work-tilte text-center text-md-start">3-Axis Brushless Gimbal & RC Integration</h3>
+              <p>Designed and modeled a 3-axis brushless camera stabilization mechanism from scratch using FreeCAD.
+                 Assembled the hardware stack and performed real-time PID tuning, analyzing XYZ dynamic response curves under simulated high-vibration movement.
+                 Interfaced the controller directly with flight controller PWM pads for seamless integration with RC transmitters.</p>
+              <p><strong>Tech Stack:</strong> FreeCAD, Brushless Motors, PID Tuning, PWM Control, RC Protocols.</p>
+            </section>
+          </div>
+          <div class="col-12 col-md-6">
+            <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; z-index: 1;">
+              <iframe
+                src="https://www.youtube.com/embed/0Fg53xOzA3E?autoplay=1&mute=1&loop=1&playlist=0Fg53xOzA3E"
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+              </iframe>
             </div>
+          </div>
+        </div>
+      </div>
 
-              <div class="ds-work-list">
-              <div class="row">
-                  <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
-                      <section>
-                          <h3 class="ds-work-tilte">Todo.</h3>
-                          <p>The todo app is created using Vue.</p>
-                          <a href="https://github.com/StachevGleb/todo_list" class="ds-button">Git</a>
-                          <a href="https://todovue-xhne.onrender.com" class="ds-button">To see...</a>
-                      </section>
-                  </div>
-                  <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5">
-                      <figure><img src="assets/images/work-4.jpg"></figure>
-                  </div>
-              </div>
+      <div class="ds-work-list">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-6">
+            <section>
+              <h3 class="ds-work-tilte text-center text-md-start">AI-Powered Ground Control Video Station</h3>
+              <p>Developed a high-performance video monitoring application optimized for low-latency processing of RF and analog video feeds via UVC/ADC capture devices.
+                 Integrated real-time computer vision (YOLO target detection model) directly into the video pipeline to perform automated tracking, stream filtering, and signal analysis.</p>
+              <p><strong>Tech Stack:</strong> Python (Tkinter), Computer Vision (YOLO), Low-Latency AV (UVC/ADC), UI Customization.</p>
+            </section>
+          </div>
+          <div class="col-12 col-md-6">
+            <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; z-index: 1;">
+              <iframe
+                src="https://www.youtube.com/embed/G-c-VO6YcOg?autoplay=1&mute=1&loop=1&playlist=G-c-VO6YcOg"
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+              </iframe>
             </div>
+          </div>
+        </div>
+      </div>
 
-            <div class="ds-work-list">
-              <div class="row">
-                  <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
-                      <section>
-                          <h3 class="ds-work-tilte">Match cards.</h3>
-                          <p>The first educational project using html, css, javascript. Find the same cards to complete the game you have 200 seconds.</p>
-                          <a href="https://github.com/StachevGleb/DI_Hackathon1" class="ds-button">Git</a>
-                          <a href="https://bit.ly/3LxkFtj" class="ds-button">Play</a>
-                          <a href="https://youtu.be/saBBDgcjq7U" class="ds-button">Video</a>
-                        </section>
-                  </div>
-                  <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5">
-                      <figure><img src="assets/images/work-1.jpg"></figure>
-                  </div>
-              </div>
+      <div class="ds-work-list">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-7">
+            <section>
+              <h3 class="ds-work-tilte text-center text-md-start">Multi-Device RTOS Audio Streaming System</h3>
+              <p>Architected a scalable, low-latency network audio streaming ecosystem for synchronous multi-device playback.
+                 Developed embedded C++ firmware driven by FreeRTOS tasks to handle high-frequency digital audio (I2S) and DMA buffering,
+                 integrated with an asynchronous FastAPI WebSocket server and custom control dashboards.</p>
+              <p><strong>Tech Stack:</strong> Embedded C++, FreeRTOS, ESP32, I2S / DMA, Python (FastAPI), JavaScript (UI) WebSockets.</p>
+            </section>
+          </div>
+          <div class="col-12 col-md-5">
+            <div class="nda-placeholder">
+              <span>NDA</span>
             </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+<!--   <div class="ds-work-section">-->
+
+<!--            <div class="container">-->
+<!--          <h2 class="ds-heading">Latest works</h2>-->
+<!--          <div class="ds-work-list-section">-->
+
+<!--              <div class="ds-work-list">-->
+<!--          <div class="row align-items-center"> <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">-->
+<!--              <section>-->
+<!--                <h3 class="ds-work-tilte text-center">3-Axis Gimbal Integrated with Radio Control</h3>-->
+<!--                <p>Modeled entirely from scratch in FreeCAD. Assembled the 3-axis brushless gimbal mechanism. Testing real-time XYZ stabilization and dynamic-->
+<!--                    response curves under simulated movement. Connected to PWM signals pads on the flight controller to-->
+<!--                    integrate with an RC transmitter.  </p>-->
+<!--              </section>-->
+<!--            </div>-->
+
+<!--            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">-->
+<!--              <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; z-index: 100;">-->
+<!--                <iframe-->
+<!--                  src="https://www.youtube.com/embed/0Fg53xOzA3E?autoplay=1&mute=1&loop=1&playlist=0Fg53xOzA3E"-->
+<!--                  style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"-->
+<!--                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"-->
+<!--                  allowfullscreen>-->
+<!--                </iframe>-->
+<!--              </div>-->
+<!--            </div>-->
+
+<!--          </div>-->
+<!--        </div>-->
+
+
+<!--              <div class="ds-work-list">-->
+<!--          <div class="row align-items-center"> <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">-->
+<!--              <section>-->
+<!--                <h3 class="ds-work-tilte text-center">Ground Control Video Station</h3>-->
+<!--                <p>Video processing software for video monitoring, capable of handling-->
+<!--                   low-latency video feeds from analog capture devices (UVC/ADC),-->
+<!--                   screen captures, or external digital cameras.</p>-->
+<!--              </section>-->
+<!--            </div>-->
+
+<!--            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">-->
+<!--              <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; z-index: 100;">-->
+<!--                <iframe-->
+<!--                  src="https://www.youtube.com/embed/G-c-VO6YcOg?autoplay=1&mute=1&loop=1&playlist=G-c-VO6YcOg"-->
+<!--                  style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"-->
+<!--                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"-->
+<!--                  allowfullscreen>-->
+<!--                </iframe>-->
+<!--              </div>-->
+<!--            </div>-->
+
+<!--          </div>-->
+<!--        </div>-->
+
+<!--        <div class="ds-work-list">-->
+<!--          <div class="row align-items-center">-->
+<!--              <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">-->
+<!--                  <section>-->
+<!--                      <h3 class="ds-work-tilte text-center">Multi-Device RTOS Audio Streaming System</h3>-->
+
+<!--                      <p>A scalable, network-driven audio streaming ecosystem designed for real-time multi-device synchronization.-->
+<!--                         Architected the full-stack infrastructure, from low-level RTOS firmware to backend services and user controls.</p>-->
+
+<!--                      <p><strong>Tech Stack:</strong> C++ (Firmware), Python (FastAPI-Server), JavaScript (UI).</p>-->
+
+<!--              </section>-->
+<!--              </div>-->
+
+<!--              <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5">-->
+<!--                  <div class="nda-placeholder">-->
+<!--                    <span>NDA</span>-->
+<!--                  </div>-->
+<!--              </div>-->
+<!--          </div>-->
+<!--        </div>-->
+
+
+<!--      <div class="ds-work-list">-->
+<!--          <div class="row align-items-center">-->
+<!--              <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">-->
+<!--                  <section>-->
+<!--                      <h3 class="ds-work-tilte text-center">Educational Web Portal</h3>-->
+<!--                      <p>A custom web portal developed for a U.S.-based educational organization,-->
+<!--                          enabling streamlined management of users, chapters, and administrative workflows.-->
+<!--                          The platform's primary function was to collect, monitor, and process academic data-->
+<!--                          related to student performance and graduation outcomes across multiple schools.</p>-->
+<!--                      <a href="https://jupiplus.com/case-study/educational-web-portal" class="ds-button">About...</a>-->
+<!--                  </section>-->
+<!--              </div>-->
+
+<!--              <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5">-->
+<!--                  <div class="nda-placeholder">-->
+<!--                    <span>NDA</span>-->
+<!--                  </div>-->
+<!--              </div>-->
+<!--          </div>-->
+<!--        </div>-->
+
+
+<!--     <div class="container">-->
+<!--          <h2 class="ds-heading">Latest works</h2>-->
+<!--          <div class="ds-work-list-section">-->
+
+<!--            <div class="ds-work-list">-->
+<!--              <div class="row">-->
+<!--                  <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">-->
+<!--                      <section>-->
+<!--                          <h3 class="ds-work-tilte">Paintings gallery.</h3>-->
+<!--                          <p>The final educational project using html, css, javascript, python (flask framework, related to database - PostgreSQL). Simple gallery with opportunity to add/delete/upgrade images and posts.</p>-->
+<!--                          <a href="https://github.com/StachevGleb/Final_Project" class="ds-button">Git</a>-->
+<!--                          <a href="https://pictures-gallery.onrender.com/" class="ds-button">To see...</a>-->
+<!--                          <a href="https://youtu.be/k_32FYkFRTc" class="ds-button">Video</a>-->
+<!--                      </section>-->
+<!--                  </div>-->
+<!--                  <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5">-->
+<!--                      <figure><img src="assets/images/work-2.jpg"></figure>-->
+<!--                  </div>-->
+<!--              </div>-->
+<!--            </div>-->
+
+<!--                <div class="ds-work-list">-->
+<!--              <div class="row">-->
+<!--                  <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">-->
+<!--                      <section>-->
+<!--                          <h3 class="ds-work-tilte">Calculator.</h3>-->
+<!--                          <p>The calculator is created in pure javascript.</p>-->
+<!--                          <a href="https://github.com/StachevGleb/Calculator" class="ds-button">Git</a>-->
+<!--                          <a href="https://stachevgleb.github.io/Calculator/" class="ds-button">To see...</a>-->
+<!--                      </section>-->
+<!--                  </div>-->
+<!--                  <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5">-->
+<!--                      <figure><img src="assets/images/work-3.jpg"></figure>-->
+<!--                  </div>-->
+<!--              </div>-->
+<!--            </div>-->
+
+<!--              <div class="ds-work-list">-->
+<!--              <div class="row">-->
+<!--                  <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">-->
+<!--                      <section>-->
+<!--                          <h3 class="ds-work-tilte">Todo.</h3>-->
+<!--                          <p>The todo app is created using Vue.</p>-->
+<!--                          <a href="https://github.com/StachevGleb/todo_list" class="ds-button">Git</a>-->
+<!--                          <a href="https://todovue-xhne.onrender.com" class="ds-button">To see...</a>-->
+<!--                      </section>-->
+<!--                  </div>-->
+<!--                  <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5">-->
+<!--                      <figure><img src="assets/images/work-4.jpg"></figure>-->
+<!--                  </div>-->
+<!--              </div>-->
+<!--            </div>-->
+
+<!--            <div class="ds-work-list">-->
+<!--              <div class="row">-->
+<!--                  <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">-->
+<!--                      <section>-->
+<!--                          <h3 class="ds-work-tilte">Match cards.</h3>-->
+<!--                          <p>The first educational project using html, css, javascript. Find the same cards to complete the game you have 200 seconds.</p>-->
+<!--                          <a href="https://github.com/StachevGleb/DI_Hackathon1" class="ds-button">Git</a>-->
+<!--                          <a href="https://bit.ly/3LxkFtj" class="ds-button">Play</a>-->
+<!--                          <a href="https://youtu.be/saBBDgcjq7U" class="ds-button">Video</a>-->
+<!--                        </section>-->
+<!--                  </div>-->
+<!--                  <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5">-->
+<!--                      <figure><img src="assets/images/work-1.jpg"></figure>-->
+<!--                  </div>-->
+<!--              </div>-->
+<!--            </div>-->
           
           </div>
      </div>

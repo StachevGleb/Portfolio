@@ -121,6 +121,70 @@ span.ds-department{ color: #373737; font-weight: 500; font-size: 18px; padding-b
 .ds-copyright a:hover{ color: #F26464; }
 
 
+.ds-subtitle {
+  display: block;
+  font-size: 1.75rem; /* Менший за ім'я, але чітко помітний */
+  font-weight: 500;
+  color: #ef4444; /* М'який червоний/кораловий акцент під колір вашої кнопки */
+  margin-top: 0.25rem;
+}
+
+.container-ex {
+	display: flex; /* or inline-flex */
+}
+
+.nda-placeholder {
+  width: 100%;
+  /* Зберігаємо пропорції, щоб блок займав стільки ж місця, скільки й картинка/відео */
+  aspect-ratio: 16 / 9;
+
+  /* Повністю прибираємо фон і рамки */
+  background: none !important;
+  border: none !important;
+
+  /* Центруємо літери всередині цієї колонки */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nda-placeholder span {
+  /* Робимо літери великими та жирними */
+  font-size: 5.5rem;
+  font-weight: 900;
+  letter-spacing: 0.3em;      /* Красивий відступ між літерами */
+
+  /* --- ЗМІНА КОЛЬОРУ ДЛЯ СВІТЛОГО ФОНУ --- */
+  /* Використовуємо напівпрозорий сірий колір, щоб він був помітним, але не надто яскравим */
+  color: rgba(0, 0, 0, 0.2);
+
+  text-transform: uppercase;
+  user-select: none;
+}
+
+.ds-hero-location {
+  font-size: 1.1rem;
+  color: #6c757d; /* Приглушений колір, щоб не сперечався з головним тайтлом */
+  margin-top: -0.5rem; /* Підтягує локацію ближче до тайтлу */
+  margin-bottom: 2rem; /* Створює гарний відступ перед "Short about me" */
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; /* Відступ між іконкою картографічного маркера та текстом */
+}
+
+.ds-hero-location i {
+  color: #dc3545; /* Червоний або акцентний колір для іконки, під стиль сайту */
+}
+
+.style-badge {
+    border-radius: 20px !important;
+    font-weight: 500 !important;
+    font-size: 0.95rem !important;
+    background-color: #fff !important;
+    border-color: #dee2e6 !important;
+    white-space: nowrap !important; /* Гарантує, що текст всередині бабла не розірветься на кілька рядків чи елементів */
+  }
+
 
 /*-------------------------------------------------------------------------------
  Responsive XS Style @media (max-width: 767px) 
@@ -155,10 +219,6 @@ span.ds-department{ color: #373737; font-weight: 500; font-size: 18px; padding-b
 	.ds-work-content-sec h2{ font-size: 20px; }
 	.ds-work-content-sec{ padding: 30px 0; }
 	.ds-work-list section{ padding-right: 0; padding-bottom: 30px; }
-}
-
-.container-ex {
-	display: flex; /* or inline-flex */
 }
 
 
